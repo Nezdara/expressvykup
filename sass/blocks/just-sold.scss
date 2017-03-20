@@ -1,0 +1,38 @@
+.just-sold {
+  @include container;
+  padding: 37px 20px;
+  background-color: #38368D;
+}
+
+.just-sold__item {
+  margin-bottom: 30px;
+}
+
+.just-sold__title {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 37px;
+}
+
+.just-sold__capture {
+  margin-top: -72px;
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.67) 70%);
+  position: relative;
+  max-width: 296px;
+}
+
+.just-sold__text {
+  padding-left: 13px;
+  padding-bottom: 13px;
+  padding-top: 24px;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 17px;
+
+  &--blue{
+    font-size: 16px;
+    color: #00BAB3;
+  }
+}

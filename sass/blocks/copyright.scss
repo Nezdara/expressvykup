@@ -1,0 +1,18 @@
+.copyright {
+  @include container;
+  background: #38368D;
+}
+
+@media #{$desktop} {
+  .copyright {
+    border-top: 1px solid rgba(216,216,216,0.2);
+  }
+}
+
+.copyright__text {
+  font-size: 12px;
+  color: #FFFFFF;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="26px" viewBox="0 0 31 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hamburger_menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home_page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile_Home" transform="translate(-269.000000, -26.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <g id="icon_hamburger_menu">
+                    <path d="M269,28 C269,26.8954305 269.894338,26 270.998214,26 L298.001786,26 C299.105369,26 300,26.8877296 300,28 C300,29.1045695 299.105662,30 298.001786,30 L270.998214,30 C269.894631,30 269,29.1122704 269,28 Z M269,39 C269,37.8954305 269.894338,37 270.998214,37 L298.001786,37 C299.105369,37 300,37.8877296 300,39 C300,40.1045695 299.105662,41 298.001786,41 L270.998214,41 C269.894631,41 269,40.1122704 269,39 Z M269,50 C269,48.8954305 269.894338,48 270.998214,48 L298.001786,48 C299.105369,48 300,48.8877296 300,50 C300,51.1045695 299.105662,52 298.001786,52 L270.998214,52 C269.894631,52 269,51.1122704 269,50 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

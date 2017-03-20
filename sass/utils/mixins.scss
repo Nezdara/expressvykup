@@ -1,0 +1,17 @@
+@mixin container {
+  width: auto;
+
+  @media #{$tablet} {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  @media #{$desktop} {
+    width: 1140px;
+  }
+}
+
+@mixin container-fluid {
+  width: auto;
+  margin: 0 auto;
+}

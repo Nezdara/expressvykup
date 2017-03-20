@@ -1,0 +1,78 @@
+.nav-header {
+  display: none;
+}
+
+@media #{$desktop} {
+  .nav-header {
+    @include container;
+    display: flex;
+  }
+}
+
+@media #{$desktop} {
+  .nav-header__logo {
+    margin: 12px 0;
+    margin-right: 78px;
+  }
+}
+
+@media #{$desktop} {
+  .main-nav__list {
+    display: flex;
+    margin-top: 25px;
+  }
+}
+
+@media #{$desktop} {
+  .main-nav__item {
+    margin-right: 40px;
+
+
+  }
+}
+
+@media #{$desktop} {
+  .main-nav__link {
+    font-size: 15px;
+    color: #1D437F;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media #{$desktop} {
+  .nav-header__callme {
+    margin-left: auto;
+  }
+}
+
+@media #{$desktop} {
+  .nav-header__callme-btn {
+    position: relative;
+    padding: 5px 0;
+    padding-left: 21px;
+    display: block;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    width: 172px;
+    font-size: 15px;
+    color: #1D437F;
+    background: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      left: -28px;
+      width: 50px;
+      height: 50px;
+      background: url("../img/phone-call.svg");
+      background-size: cover;
+    }
+  }
+}

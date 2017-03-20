@@ -1,0 +1,132 @@
+.estimate {
+  background: #F0F2FA;
+  border-radius: 2px;
+  padding: 0 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media #{$tablet} {
+  .estimate {
+    top: 60px;
+    right: 30px;
+    width: 318px;
+    height: 470px;
+    background: rgba(255,255,255,0.64);
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.38);
+  }
+}
+
+.estimate__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.estimate__title {
+  font-size: 22px;
+  color: #F44312;
+  text-align: center;
+  padding-top: 26px;
+  margin-bottom: 16px;
+}
+
+.select {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.estimate__select {
+	display: inline-block;
+	width: 100%;
+	padding: 11px 13px;
+	cursor: pointer;
+  font-size: 16px;
+  color: rgba(0,0,0,0.70);
+	border: 0;
+	border-radius: 2px;
+	outline: 0;
+	background: #FFFFFF;
+	appearance: none;
+
+  &::-ms-expand{
+    display: none;
+  }
+}
+
+.select__arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #F44312 transparent transparent transparent;
+}
+
+.estimate__input {
+  width: 100%;
+  padding: 11px 13px;
+  font-size: 16px;
+  color: rgba(0,0,0,0.70);
+  border: 0;
+	border-radius: 2px;
+	outline: 0;
+	background: #FFFFFF;
+  margin-bottom: 15px;
+
+  &::placeholder {
+    color: rgba(0,0,0,0.70);
+  }
+}
+
+.estimate__textarea {
+  width: 100%;
+  padding: 11px 13px;
+  font-size: 16px;
+  color: rgba(0,0,0,0.70);
+  border: 0;
+	border-radius: 2px;
+	outline: 0;
+	background: #FFFFFF;
+  margin-bottom: 15px;
+  resize: none;
+
+  &::placeholder {
+    color: rgba(0,0,0,0.70);
+  }
+
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+}
+
+.estimate__addfile {
+  display: flex;
+}
+
+.estimate__attach {
+  font-size: 14px;
+  color: rgba(0,0,0,0.70);
+  margin-bottom: 20px;
+  margin-right: 9px;
+}
+
+.estimate__btn {
+  padding: 11px 0;
+  display: block;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 290px;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #F44312;
+  border-radius: 4px;
+  box-shadow: 0px 4px 2px 0px rgba(200,54,14,1);
+}

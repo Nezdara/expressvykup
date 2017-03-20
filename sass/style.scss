@@ -1,0 +1,23 @@
+@import "utils/variables.scss";
+@import "utils/mixins.scss";
+
+@import "base/fonts.scss";
+@import "base/normalize.scss";
+@import "base/scaffolding.scss";
+@import "base/typography.scss";
+@import "base/slick.scss";
+
+@import "blocks/wrapper.scss";
+
+@import "blocks/contacts-header.scss";
+@import "blocks/nav-header.scss";
+@import "blocks/menu.scss";
+@import "blocks/estimate.scss";
+@import "blocks/promo.scss";
+@import "blocks/sale-your-auto.scss";
+@import "blocks/why-us.scss";
+@import "blocks/just-sold.scss";
+@import "blocks/seo.scss";
+@import "blocks/comments.scss";
+@import "blocks/footer.scss";
+@import "blocks/copyright.scss";

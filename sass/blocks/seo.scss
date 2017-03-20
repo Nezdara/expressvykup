@@ -1,0 +1,52 @@
+.seo {
+  @include container;
+  padding: 0 15px;
+  padding-bottom: 40px;
+  background: #504EA6;
+}
+
+@media #{$tablet} {
+  .seo {
+    padding: 0 35px;
+    padding-bottom: 40px;
+  }
+}
+
+@media #{$desktop} {
+  .seo {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+}
+
+.seo__title {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  color: #FFFFFF;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media #{$desktop} {
+  .seo__title {
+    font-size: 32px;
+    line-height: 38px;
+    width: 1070px;
+  }
+}
+
+.seo__text {
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 21px;
+}
+
+@media #{$desktop} {
+  .seo__text {
+    font-size: 16px;
+    line-height: 26px;
+    width: 1070px;
+  }
+}

@@ -1,0 +1,37 @@
+.menu {
+  display: none;
+}
+
+@media #{$desktop} {
+  .menu {
+    @include container;
+    display: block;
+  }
+}
+
+@media #{$desktop} {
+  .menu__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    position: relative;
+  }
+}
+
+@media #{$desktop} {
+  .menu__item {
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 18px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media #{$desktop} {
+  .menu__list li ul{
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.contacts-header {
+  display: none;
+}
+
+@media #{$desktop} {
+  .contacts-header {
+    @include container;
+    display: flex;
+    padding: 11px 0;
+  }
+}
+
+@media #{$desktop} {
+  .contacts-header__item {
+    font-size: 16px;
+    color: rgba(0,0,0,0.70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:first-child {
+      margin-right: 36px;
+    }
+
+    &--tel {
+      margin-right: auto;
+    }
+
+    &--email {
+      margin-left: 60px;
+    }
+  }
+}
+
+@media #{$desktop} {
+  .contacts-header__icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+}
+
+@media #{$desktop} {
+  .contacts-header__link {
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
